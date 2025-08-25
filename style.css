@@ -1,0 +1,124 @@
+/*
+Theme Name: TeeLink theme
+Theme URI: 
+Author: Ian Han
+Author URI: 
+Description: A custom WordPress theme for the TeeLink screen golf booking365
+Requires at least: 6.8
+Tested up to: 6.8
+Requires PHP: 5.7
+Version: 
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: teelink-theme
+Tags: 
+*/
+
+#gform_confirmation_message_3{
+  color: #fff;
+}
+
+footer {
+  margin-top: 0;
+}
+
+.wp-block-buttons {
+  position: relative;
+  top: -50px;
+}
+
+figure img {
+  border-radius: 10px;
+}
+
+.wp-block-cover .wp-block-buttons {
+  position: relative;
+  top: 0;
+}
+
+blockquote.wp-block-quote p:first-of-type::before {
+  content: open-quote;
+  font-size: 3rem;
+  line-height: 0.6;
+  margin-right: 0.25rem;
+  vertical-align: 0.5rem;
+  color: #fff;
+}
+
+blockquote.wp-block-quote p:last-of-type::after {
+  content: close-quote;
+  font-size: 3rem;
+  line-height: 0.6;
+  margin-left: 0.25rem;
+  vertical-align: 0.5rem;
+  color: #fff;
+}
+
+#gform_fields_2 {
+  gap: 5px;
+}
+
+#gform_fields_3 {
+  gap: 10px;
+}
+
+#gfield_description_2_3 {
+  display: none;
+}
+
+.gform-footer {
+  justify-content: flex-end !important;
+  margin-top: 10px !important;
+}
+
+.gfield_label {
+  font-size: 25px !important;
+  font-family: "Bebas Neue", sans-serif !important;
+}
+
+#gform_submit_button_3 {
+  font-size: 25px !important;
+  font-family: "Bebas Neue", sans-serif !important;
+}
+
+@media (max-width: 320px) {
+  #input_3_1 {
+    width: 280px;
+  }
+
+  #input_3_3 {
+    width: 280px;
+  }
+
+  #input_3_4 {
+    width: 300px;
+  }
+
+  h1 {
+    font-size: 28px !important;
+  }
+
+  .wp-block-navigation__container {
+    justify-content: start;
+  }
+
+  .wp-block-heading {
+    padding-left: 0 !important;
+  }
+
+  .has-text-align-left {
+    padding-left: 0 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .wp-block-template-part .wp-block-group {
+    gap: 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .wp-block-group .alignfull .has-global-padding {
+    padding-left: 100px;
+  }
+}
